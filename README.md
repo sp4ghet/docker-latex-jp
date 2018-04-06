@@ -22,8 +22,8 @@ docker run --rm -it -v [/path/to/src/directory]:/home/alpine/src latexmk [filena
 ```Makefile
 ...
 watch:
-	@[ -d $(BUILD_DIR) ] || mkdir -p $(BUILD_DIR)
-	latexmk -pvc -jobname=${BUILD_DIR}/${JOBNAME} ${TEX}
+  @[ -d $(BUILD_DIR) ] || mkdir -p $(BUILD_DIR)
+  latexmk -pvc -jobname=${BUILD_DIR}/${JOBNAME} ${TEX}
 ...
 ```
 
@@ -35,10 +35,10 @@ REPOSITORY=ganow/latex-jp
 IMAGENAME=$(REPOSITORY):$(IMAGETAG)
 ...
 watch:
-	@[ -d $(BUILD_DIR) ] || mkdir -p $(BUILD_DIR)
-	docker docker run --rm -it \
-		-v $(PWD):/home/alpine/src $(IMAGENAME) \
-		latexmk -pvc -jobname=${BUILD_DIR}/${JOBNAME} ${TEX}
+  @[ -d $(BUILD_DIR) ] || mkdir -p $(BUILD_DIR)
+  docker docker run --rm -it \
+    -v $(PWD):/home/alpine/src $(IMAGENAME) \
+    latexmk -pvc -jobname=${BUILD_DIR}/${JOBNAME} ${TEX}
 ...
 ```
 
