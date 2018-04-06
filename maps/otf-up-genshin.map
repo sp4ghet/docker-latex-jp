@@ -1,0 +1,32 @@
+
+% TEXT, 90JIS
+uphminl-h	UniJIS-UTF16-H	GenYoMinJP-Light.ttf
+uphminl-v	UniJIS-UTF16-V	GenYoMinJP-Light.ttf
+uphminr-h	UniJIS-UTF16-H	GenYoMinJP-Regular.ttf
+uphminr-v	UniJIS-UTF16-V	GenYoMinJP-Regular.ttf
+uphminb-h	UniJIS-UTF16-H	GenYoMinJP-Bold.ttf
+uphminb-v	UniJIS-UTF16-V	GenYoMinJP-Bold.ttf
+uphgothr-h	UniJIS-UTF16-H	GenShinGothic-Regular.ttf
+uphgothr-v	UniJIS-UTF16-V	GenShinGothic-Regular.ttf
+uphgothb-h	UniJIS-UTF16-H	GenShinGothic-Bold.ttf
+uphgothb-v	UniJIS-UTF16-V	GenShinGothic-Bold.ttf
+uphgotheb-h	UniJIS-UTF16-H	GenShinGothic-Heavy.ttf
+uphgotheb-v	UniJIS-UTF16-V	GenShinGothic-Heavy.ttf
+uphmgothr-h	UniJIS-UTF16-H	GenShinGothic-Regular.ttf
+uphmgothr-v	UniJIS-UTF16-V	GenShinGothic-Regular.ttf
+
+% TEXT, JIS04
+uphminln-h	UniJIS2004-UTF16-H	GenYoMinJP-Light.ttf
+uphminln-v	UniJIS2004-UTF16-V	GenYoMinJP-Light.ttf
+uphminrn-h	UniJIS2004-UTF16-H	GenYoMinJP-Regular.ttf
+uphminrn-v	UniJIS2004-UTF16-V	GenYoMinJP-Regular.ttf
+uphminbn-h	UniJIS2004-UTF16-H	GenYoMinJP-Bold.ttf
+uphminbn-v	UniJIS2004-UTF16-V	GenYoMinJP-Bold.ttf
+uphgothrn-h	UniJIS2004-UTF16-H	GenShinGothic-Regular.ttf
+uphgothrn-v	UniJIS2004-UTF16-V	GenShinGothic-Regular.ttf
+uphgothbn-h	UniJIS2004-UTF16-H	GenShinGothic-Bold.ttf
+uphgothbn-v	UniJIS2004-UTF16-V	GenShinGothic-Bold.ttf
+uphgothebn-h	UniJIS2004-UTF16-H	GenShinGothic-Heavy.ttf
+uphgothebn-v	UniJIS2004-UTF16-V	GenShinGothic-Heavy.ttf
+uphmgothrn-h	UniJIS2004-UTF16-H	GenShinGothic-Regular.ttf
+uphmgothrn-v	UniJIS2004-UTF16-V	GenShinGothic-Regular.ttf

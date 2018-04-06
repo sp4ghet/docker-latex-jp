@@ -1,0 +1,92 @@
+
+% TEXT, 90JIS
+hminl-h	H	GenYoMinJP-Light.ttf
+hminl-v	V	GenYoMinJP-Light.ttf
+hminr-h	H	GenYoMinJP-Regular.ttf
+hminr-v	V	GenYoMinJP-Regular.ttf
+hminb-h	H	GenYoMinJP-Bold.ttf
+hminb-v	V	GenYoMinJP-Bold.ttf
+hgothr-h	H	GenShinGothic-Regular.ttf
+hgothr-v	V	GenShinGothic-Regular.ttf
+hgothb-h	H	GenShinGothic-Bold.ttf
+hgothb-v	V	GenShinGothic-Bold.ttf
+hgotheb-h	H	GenShinGothic-Heavy.ttf
+hgotheb-v	V	GenShinGothic-Heavy.ttf
+hmgothr-h	H	GenShinGothic-Regular.ttf
+hmgothr-v	V	GenShinGothic-Regular.ttf
+
+% TEXT, JIS04
+hminln-h	H	GenYoMinJP-Light.ttf
+hminln-v	V	GenYoMinJP-Light.ttf
+hminrn-h	H	GenYoMinJP-Regular.ttf
+hminrn-v	V	GenYoMinJP-Regular.ttf
+hminbn-h	H	GenYoMinJP-Bold.ttf
+hminbn-v	V	GenYoMinJP-Bold.ttf
+hgothrn-h	H	GenShinGothic-Regular.ttf
+hgothrn-v	V	GenShinGothic-Regular.ttf
+hgothbn-h	H	GenShinGothic-Bold.ttf
+hgothbn-v	V	GenShinGothic-Bold.ttf
+hgothebn-h	H	GenShinGothic-Heavy.ttf
+hgothebn-v	V	GenShinGothic-Heavy.ttf
+hmgothrn-h	H	GenShinGothic-Regular.ttf
+hmgothrn-v	V	GenShinGothic-Regular.ttf
+
+% CID
+otf-cjml-h	Identity-H	GenYoMinJP-Light.ttf
+otf-cjml-v	Identity-V	GenYoMinJP-Light.ttf
+otf-cjmr-h	Identity-H	GenYoMinJP-Regular.ttf
+otf-cjmr-v	Identity-V	GenYoMinJP-Regular.ttf
+otf-cjmb-h	Identity-H	GenYoMinJP-Bold.ttf
+otf-cjmb-v	Identity-V	GenYoMinJP-Bold.ttf
+otf-cjgr-h	Identity-H	GenShinGothic-Regular.ttf
+otf-cjgr-v	Identity-V	GenShinGothic-Regular.ttf
+otf-cjgb-h	Identity-H	GenShinGothic-Bold.ttf
+otf-cjgb-v	Identity-V	GenShinGothic-Bold.ttf
+otf-cjge-h	Identity-H	GenShinGothic-Heavy.ttf
+otf-cjge-v	Identity-V	GenShinGothic-Heavy.ttf
+otf-cjmgr-h	Identity-H	GenShinGothic-Regular.ttf
+otf-cjmgr-v	Identity-V	GenShinGothic-Regular.ttf
+
+% Unicode 90JIS
+otf-ujml-h	UniJIS-UTF16-H	GenYoMinJP-Light.ttf
+otf-ujml-v	UniJIS-UTF16-V	GenYoMinJP-Light.ttf
+otf-ujmr-h	UniJIS-UTF16-H	GenYoMinJP-Regular.ttf
+otf-ujmr-v	UniJIS-UTF16-V	GenYoMinJP-Regular.ttf
+otf-ujmb-h	UniJIS-UTF16-H	GenYoMinJP-Bold.ttf
+otf-ujmb-v	UniJIS-UTF16-V	GenYoMinJP-Bold.ttf
+otf-ujgr-h	UniJIS-UTF16-H	GenShinGothic-Regular.ttf
+otf-ujgr-v	UniJIS-UTF16-V	GenShinGothic-Regular.ttf
+otf-ujgb-h	UniJIS-UTF16-H	GenShinGothic-Bold.ttf
+otf-ujgb-v	UniJIS-UTF16-V	GenShinGothic-Bold.ttf
+otf-ujge-h	UniJIS-UTF16-H	GenShinGothic-Heavy.ttf
+otf-ujge-v	UniJIS-UTF16-V	GenShinGothic-Heavy.ttf
+otf-ujmgr-h	UniJIS-UTF16-H	GenShinGothic-Regular.ttf
+otf-ujmgr-v	UniJIS-UTF16-V	GenShinGothic-Regular.ttf
+
+% Unicode JIS04
+otf-ujmln-h	UniJIS2004-UTF16-H	GenYoMinJP-Light.ttf
+otf-ujmln-v	UniJIS2004-UTF16-V	GenYoMinJP-Light.ttf
+otf-ujmrn-h	UniJIS2004-UTF16-H	GenYoMinJP-Regular.ttf
+otf-ujmrn-v	UniJIS2004-UTF16-V	GenYoMinJP-Regular.ttf
+otf-ujmbn-h	UniJIS2004-UTF16-H	GenYoMinJP-Bold.ttf
+otf-ujmbn-v	UniJIS2004-UTF16-V	GenYoMinJP-Bold.ttf
+otf-ujgrn-h	UniJIS2004-UTF16-H	GenShinGothic-Regular.ttf
+otf-ujgrn-v	UniJIS2004-UTF16-V	GenShinGothic-Regular.ttf
+otf-ujgbn-h	UniJIS2004-UTF16-H	GenShinGothic-Bold.ttf
+otf-ujgbn-v	UniJIS2004-UTF16-V	GenShinGothic-Bold.ttf
+otf-ujgen-h	UniJIS2004-UTF16-H	GenShinGothic-Heavy.ttf
+otf-ujgen-v	UniJIS2004-UTF16-V	GenShinGothic-Heavy.ttf
+otf-ujmgrn-h	UniJIS2004-UTF16-H	GenShinGothic-Regular.ttf
+otf-ujmgrn-v	UniJIS2004-UTF16-V	GenShinGothic-Regular.ttf
+
+% hiraprop
+hiramin-w3-h Identity-H GenYoMinJP-Regular.ttf
+hiramin-w6-h Identity-H GenYoMinJP-Bold.ttf
+hirakaku-w3-h Identity-H GenShinGothic-Regular.ttf
+hirakaku-w6-h Identity-H GenShinGothic-Bold.ttf
+hiramaru-w4-h Identity-H GenShinGothic-Regular.ttf
+hiramin-w3-v Identity-V GenYoMinJP-Regular.ttf
+hiramin-w6-v Identity-V GenYoMinJP-Bold.ttf
+hirakaku-w3-v Identity-V GenShinGothic-Regular.ttf
+hirakaku-w6-v Identity-V GenShinGothic-Bold.ttf
+hiramaru-w4-v Identity-V GenShinGothic-Regular.ttf
