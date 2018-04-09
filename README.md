@@ -6,7 +6,7 @@ upLaTeX+dvipdfmxでtexソースファイルをPDFに変換するためのDocker�
 ## Installation
 
 ```bash
-docker pull ganow/latex-jp:0.2
+docker pull sp4ghet/latex-jp
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ docker pull ganow/latex-jp:0.2
 基本的な使用方法は以下の通り:
 
 ```bash
-docker run --rm -it -v [/path/to/src/directory]:/home/alpine/src latexmk [filename].tex
+docker run --rm -it -v [/path/to/src/directory]:/home/alpine/src sp4ghet/latex-jp latexmk [filename].tex
 ```
 
 例えば、LaTeXソースの置いてあるMakefileに
@@ -30,8 +30,8 @@ watch:
 と書いてあるとする。これを以下のように書き換えれば動く:
 
 ```Makefile
-IMAGETAG=0.2
-REPOSITORY=ganow/latex-jp
+IMAGETAG=latest
+REPOSITORY=sp4ghet/latex-jp
 IMAGENAME=$(REPOSITORY):$(IMAGETAG)
 ...
 watch:

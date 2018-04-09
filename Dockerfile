@@ -1,5 +1,5 @@
 FROM frolvlad/alpine-glibc
-MAINTAINER ganow <y.nagano.92@gmail.com>
+MAINTAINER sp4ghet <rikuo.hase1997@gmail.com>
 
 ENV PATH /usr/local/texlive/2017/bin/x86_64-linux:$PATH
 
@@ -56,5 +56,7 @@ USER $RUNTIME_USER
 WORKDIR /home/$RUNTIME_USER/src
 
 COPY latexmkrc /home/$RUNTIME_USER/.latexmkrc
+
+ENTRYPOINT ["latexmk"]
 
 CMD ["bash"]
