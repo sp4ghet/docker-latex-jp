@@ -1,7 +1,7 @@
 SRC?="${PWD}"
 RUNTIME_USER=alpine
 IMAGETAG=latest
-REPOSITORY=sp4ghet/latex-jp
+REPOSITORY=sp4ghet/latex
 IMAGENAME=$(REPOSITORY):$(IMAGETAG)
 
 all: run
