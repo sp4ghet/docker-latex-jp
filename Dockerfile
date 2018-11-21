@@ -1,12 +1,13 @@
 FROM frolvlad/alpine-glibc
 MAINTAINER sp4ghet <rikuo.hase1997@gmail.com>
 
-ENV PATH /usr/local/texlive/2017/bin/x86_64-linux:$PATH
+ENV PATH /usr/local/texlive/2018/bin/x86_64-linux:$PATH
 
 # Install latex dependencies
 RUN apk --no-cache add perl wget xz tar fontconfig-dev && \
-    mkdir /tmp/install-tl-unx && \
-    wget -qO- ftp://tug.org/texlive/historic/2017/install-tl-unx.tar.gz | \
+    mkdir /tmp/install-tl-unx
+    
+RUN wget -O- ftp://tug.org/texlive/historic/2018/install-tl-unx.tar.gz | \
     tar -xz -C /tmp/install-tl-unx --strip-components=1 && \
     printf "%s\n" \
       "selected_scheme scheme-basic" \
@@ -14,12 +15,13 @@ RUN apk --no-cache add perl wget xz tar fontconfig-dev && \
       "option_src 0" \
       > /tmp/install-tl-unx/texlive.profile && \
     /tmp/install-tl-unx/install-tl \
-      --profile=/tmp/install-tl-unx/texlive.profile && \
-    tlmgr install \
+      --profile=/tmp/install-tl-unx/texlive.profile 
+
+RUN tlmgr install \
       collection-basic collection-latex \
       collection-latexrecommended collection-latexextra \
       collection-fontsrecommended collection-fontsextra collection-langjapanese \
-      latexmk biblatex\
+      latexmk biblatex colors\
       bbm bbm-macros amsmath newtx physics && \
     rm -fr /tmp/install-tl-unx && \
     apk --no-cache del xz tar fontconfig-dev
